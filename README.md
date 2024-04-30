@@ -42,7 +42,7 @@ Use a "chain of thought" approach to prompt the model to consider the user's goa
 
 ### Before:
 
-```json
+```
 You are an expert fitness coach.
 Please take the user's information and generate a personalized workout plan for them.
 Please include the following details:
@@ -65,7 +65,7 @@ Equipment: {equipment}
 
 ### After
 
-```json
+```
 You are an expert fitness coach. 
 Please generate a personalized {workout_days} day workout plan, with each workout lasting {workout_minutes} minutes, based on the following user information:
 
